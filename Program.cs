@@ -2,11 +2,20 @@
 
 namespace planets_and_probes
 {
-    class Program
+  class Program
+  {
+    static void Main(string[] args)
     {
-        static void Main(string[] args)
-        {
-            Console.WriteLine("Hello World!");
-        }
+      var planetList = new List<string>() {
+                "Mercury",
+                "Venus",
+                "Earth",
+                "Mars",
+                "Jupiter",
+                "Saturn",
+                "Neptune",
+                "Uranus"
+            };
     }
+  }
 }
